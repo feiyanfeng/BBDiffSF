@@ -1,0 +1,24 @@
+defaults:
+  - _self_
+  - data: default.yaml
+  - model: default.yaml
+  - diffusion: default.yaml
+  - training: default.yaml
+  - optim: default.yaml
+  - test: default.yaml
+
+name: '???'  # 当值为 '???'时，代表并没有这个参数，需要主动传入
+mode: 'train'
+device: ~
+random:
+  open: False
+  seed: 1234
+
+load: False
+
+evaluation:
+  choice: 0
+  resize: ~
+
+log:
+  name: ~
